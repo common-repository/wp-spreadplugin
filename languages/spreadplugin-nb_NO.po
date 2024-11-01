@@ -1,0 +1,689 @@
+# Robin Lund <robin@robinlund.no>, 2013.
+msgid ""
+msgstr ""
+"Project-Id-Version: Spreadplugin\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-04-05 16:26+0200\n"
+"PO-Revision-Date: 2020-04-05 16:26+0200\n"
+"Last-Translator: Thimo Grauerholz <thimo@grauerholz.de>\n"
+"Language-Team: Robin Lund\n"
+"Language: nb\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.0.8\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_attr__\n"
+"X-Poedit-Basepath: ..\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: options.php:43 spreadplugin.php:1210
+msgid "Settings"
+msgstr "Innstillinger"
+
+#: options.php:47
+msgid ""
+"These settings will be used as default and can be overwritten by the "
+"extended shortcode."
+msgstr ""
+"Disse innstillingene vil bli brukt som standard, men kan bli overstyrt ved "
+"hjelp av utvided shortcode."
+
+#: options.php:54
+msgid "Shop id:"
+msgstr "Butikk-id:"
+
+#: options.php:60
+msgid "Shop source:"
+msgstr "Butikk-kilde:"
+
+#: options.php:69
+msgid "Spreadshirt API Key:"
+msgstr "Spredshirt API-nøkkel:"
+
+#: options.php:75
+msgid "Spreadshirt API Secret:"
+msgstr "Spredshirt API-hemmelighet:"
+
+#: options.php:81
+msgid "Limit articles per page:"
+msgstr "Begrens antall produkter pr. side:"
+
+#: options.php:87
+msgid "Image size:"
+msgstr "Bildestørrelse:"
+
+#: options.php:96
+msgid "Article category:"
+msgstr "Artikkel kategori:"
+
+#: options.php:103
+msgid "Social buttons:"
+msgstr "Sosiale knapper:"
+
+#: options.php:106 options.php:117 options.php:183 options.php:194
+#: options.php:205 options.php:247 options.php:258 options.php:278
+msgid "Disabled"
+msgstr "Av"
+
+#: options.php:109 options.php:120 options.php:186 options.php:197
+#: options.php:208 options.php:250 options.php:261
+msgid "Enabled"
+msgstr "På"
+
+#: options.php:114
+msgid "Product linking:"
+msgstr "Produkt-linking:"
+
+#: options.php:125
+msgid "Sort articles by:"
+msgstr "Sort produkter etter:"
+
+#: options.php:142
+msgid "Target of checkout links:"
+msgstr "Lenkemål:"
+
+#: options.php:145
+msgid ""
+"Enter the name of your target iframe or frame, if available. Default is "
+"_blank (new window)."
+msgstr ""
+"Skriv in navnet på mål-iframe eller -frame, hvis tilgjenglig. Standard er "
+"_blank (nytt vindu)."
+
+#: options.php:152
+msgid "Use iframe for checkout:"
+msgstr "Bruk iframe for utsjekk"
+
+#: options.php:155
+msgid "Opens in separate window"
+msgstr "Åpne i et separat vindu"
+
+#: options.php:158
+msgid "Opens an iframe in the page content"
+msgstr "Åpner en iframe i sideinnhold"
+
+#: options.php:163
+msgid "Use designer:"
+msgstr ""
+
+#: options.php:166
+msgid "None"
+msgstr ""
+
+#: options.php:169
+msgid "Designer (Spreadshirt Tablomat)"
+msgstr ""
+
+#: options.php:172
+msgid "Designer Shop Id"
+msgstr ""
+
+#: options.php:175
+msgid ""
+"If you have a Designer Shop at Spreadshirt then enter its ID here to only "
+"show the designs of your Designer Shop, otherwise all Spreadshirt "
+"Marketplace designs are shown."
+msgstr ""
+
+#: options.php:180
+msgid "Always show article description:"
+msgstr "Alltid vis produkt beskrivelse:"
+
+#: options.php:191
+msgid "Show product description under article description:"
+msgstr ""
+
+#: options.php:202
+msgid "Display price without and with tax:"
+msgstr "Vis produkt med og uten mva:"
+
+#: options.php:213
+msgid "Zoom image background color:"
+msgstr "Zoom-bilde bakgrunnsfarge:"
+
+#: options.php:220
+msgid "View:"
+msgstr ""
+
+#: options.php:223
+msgid "Grid view"
+msgstr ""
+
+#: options.php:226
+msgid "List view"
+msgstr ""
+
+#: options.php:229
+msgid "Min view"
+msgstr ""
+
+#: options.php:233
+msgid "Basket text or icon:"
+msgstr ""
+
+#: options.php:236
+msgid "Text"
+msgstr ""
+
+#: options.php:239
+msgid "Icon"
+msgstr ""
+
+#: options.php:244
+msgid "Infinity scrolling:"
+msgstr "Uendelig rulling:"
+
+#: options.php:255
+msgid "Lazy load:"
+msgstr ""
+
+#: options.php:264
+msgid "If active, load images on view (speed up page load)."
+msgstr ""
+
+#: options.php:269
+msgid "Zoom type:"
+msgstr ""
+
+#: options.php:272
+msgid "Inner"
+msgstr ""
+
+#: options.php:275
+msgid "Lens"
+msgstr ""
+
+#: options.php:283
+msgid "Shop language:"
+msgstr ""
+
+#: options.php:287
+msgid "Wordpress installation language (default)"
+msgstr ""
+
+#: options.php:311
+msgid "Anchor:"
+msgstr ""
+
+#: options.php:313
+msgid "splshop or similar"
+msgstr ""
+
+#: options.php:315
+msgid ""
+"If you are using one page themes or want to specify an anchor to add with "
+"url, enter it here. Please avoid using the same anchor name as in your menu "
+"- some themes are blocking it."
+msgstr ""
+
+#: options.php:320
+msgid "Product detail slug:"
+msgstr ""
+
+#: options.php:322
+msgid "splproduct or similar"
+msgstr ""
+
+#: options.php:325
+msgid ""
+"Don't change if unknown! You could harm your site - dangerous.<br>Anyway, "
+"you could change the product detail link name here (SEO, Permalink)."
+msgstr ""
+
+#: options.php:329
+msgid "Separate Product Detail Page (experimental):"
+msgstr ""
+
+#: options.php:332
+msgid ""
+"Experimental: For SEO you want to specify a separate page with separate text "
+"and not want to use the Shop page. Please enter the name for your separate "
+"detail page here if needed. The page must contain the shortcode "
+"[spreadplugin]! The pagename you might get from the url like .../detailpage/ "
+"whereas \"detailpage\" would be that name. (This behaviour will change in "
+"future to make it easier to configure!)"
+msgstr ""
+
+#: options.php:336
+msgid "Custom CSS"
+msgstr "Egendefinert CSS:"
+
+#: options.php:342
+msgid "Debug mode:"
+msgstr ""
+
+#: options.php:345 options.php:365 options.php:382 options.php:414
+#: options.php:424 options.php:434
+msgid "Off"
+msgstr ""
+
+#: options.php:348 options.php:368 options.php:385 options.php:417
+#: options.php:427 options.php:437
+msgid "On"
+msgstr ""
+
+#: options.php:353
+msgid "Sleep timer:"
+msgstr ""
+
+#: options.php:362
+msgid "Red Sky Theme one page (Custom Part) Workaround:"
+msgstr ""
+
+#: options.php:373
+msgid "Change \"Back to shop\" link in checkout:"
+msgstr ""
+
+#: options.php:375
+msgid "http://www.example.com or empty if default"
+msgstr ""
+
+#: options.php:379
+msgid "Product on stock check:"
+msgstr ""
+
+#: options.php:390
+msgid "Claim Check 1:"
+msgstr ""
+
+#: options.php:392
+msgid "Delivery in 3-5 days"
+msgstr ""
+
+#: options.php:397
+msgid "Claim Check 2:"
+msgstr ""
+
+#: options.php:399
+msgid "30 days return"
+msgstr ""
+
+#: options.php:404
+msgid "Claim Check 3:"
+msgstr ""
+
+#: options.php:406
+msgid "Express shipment possible"
+msgstr ""
+
+#: options.php:411
+msgid "Display payment options in cart:"
+msgstr ""
+
+#: options.php:421
+msgid "Additional Modifications (used at mommyshirt):"
+msgstr ""
+
+#: options.php:431
+msgid "Open basket when customer has added new product to basket"
+msgstr ""
+
+#: options.php:440
+msgid "Update settings"
+msgstr "Oppdater innstillinger"
+
+#: options.php:441
+msgid "Rebuild cache"
+msgstr "Cache neu erstellen"
+
+#: options.php:451
+msgid "Minimum required shortcode"
+msgstr "Minimum påkrevd shortcode:"
+
+#: options.php:455
+msgid "Sample shortcode with category"
+msgstr ""
+
+#: options.php:618
+msgid ""
+"Use one of the following shortcode extensions to overwrite or extend each "
+"single page."
+msgstr ""
+
+#: options.php:758
+msgid "Please fill in the highlighted fields!"
+msgstr "Vennligst fyll ut uthevet felt!"
+
+#: options.php:772
+msgid "Successfully saved settings. Please click rebuild cache if necessary."
+msgstr ""
+
+#: spreadplugin.php:446
+msgid "Sort by"
+msgstr "Sorter etter"
+
+#: spreadplugin.php:447
+msgid "name"
+msgstr "navn"
+
+#: spreadplugin.php:448
+msgid "price"
+msgstr "pris"
+
+#: spreadplugin.php:449
+msgid "recent"
+msgstr "siste"
+
+#: spreadplugin.php:454 spreadplugin.php:498 spreadplugin.php:3054
+msgid "Basket"
+msgstr "Handlekurv"
+
+#: spreadplugin.php:486
+msgid "next"
+msgstr "neste"
+
+#: spreadplugin.php:497
+msgid "Back"
+msgstr "Tilbake"
+
+#: spreadplugin.php:528
+msgid "Order Value"
+msgstr ""
+
+#: spreadplugin.php:530
+msgid "over"
+msgstr ""
+
+#: spreadplugin.php:536
+msgid "up to"
+msgstr ""
+
+#: spreadplugin.php:737
+msgid "Hide article description"
+msgstr "Skjul artikkel beskrivelsen"
+
+#: spreadplugin.php:738 spreadplugin.php:2054 spreadplugin.php:2170
+msgid "Show article description"
+msgstr "Vis artikkel beskrivelsen"
+
+#: spreadplugin.php:739
+msgid "Hide product description"
+msgstr "Skjul produktbeskrivelse"
+
+#: spreadplugin.php:740 spreadplugin.php:2065
+msgid "Show product description"
+msgstr "Vis produktbeskrivelse"
+
+#: spreadplugin.php:742
+msgid "Loading..."
+msgstr "Legger til…"
+
+#: spreadplugin.php:743
+msgid "You have reached the end"
+msgstr "Du har nådd slutten"
+
+#: spreadplugin.php:746 spreadplugin.php:2095 spreadplugin.php:2233
+#: spreadplugin.php:2711
+msgid "Add to basket"
+msgstr "Legg til i handlekurven"
+
+#: spreadplugin.php:747
+msgid "Adding..."
+msgstr "Legger til…"
+
+#: spreadplugin.php:748
+msgid "Add failed"
+msgstr ""
+
+#: spreadplugin.php:1078
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Du har ikke rettigheter til denne siden."
+
+#: spreadplugin.php:1396
+msgid "Remove"
+msgstr "Slett"
+
+#: spreadplugin.php:1398 spreadplugin.php:2005 spreadplugin.php:2178
+#: spreadplugin.php:2306 spreadplugin.php:2678 spreadplugin.php:2755
+msgid "Size"
+msgstr "Størrelse"
+
+#: spreadplugin.php:1398
+msgid "Quantity"
+msgstr "Antall"
+
+#: spreadplugin.php:1410
+msgid "Total (excl. Shipping)"
+msgstr "Totalt (ekskl. frakt)"
+
+#: spreadplugin.php:1411
+msgid "Total (incl. Shipping)"
+msgstr "Total (incl. Shipping)"
+
+#: spreadplugin.php:1428
+msgid "Close"
+msgstr ""
+
+#: spreadplugin.php:1431 spreadplugin.php:1433
+msgid "Proceed to checkout"
+msgstr "Fortsett utsjekk"
+
+#: spreadplugin.php:1433
+msgid "Basket is empty"
+msgstr "Handlekurv er tom"
+
+#: spreadplugin.php:1436
+msgid ""
+"With a click \"Proceed to checkout\" you will be redirected to Spreadshirt. "
+"At this moment the <a href=\"https://service.spreadshirt.com/hc/en-gb/"
+"articles/115000991325/\" rel=\"nofollow\" target=\"_blank\">GTC</a> and <a "
+"href=\"https://service.spreadshirt.com/hc/en-gb/articles/115000978409/\" rel="
+"\"nofollow\" target=\"_blank\">Privacy</a> of Spreadshirt are applied."
+msgstr ""
+
+#: spreadplugin.php:1568
+msgid "What personal data we collect and why we collect it"
+msgstr ""
+
+#: spreadplugin.php:1571
+msgid ""
+"This plugin uses Spreadshirt API to create a unique basket for each visitor. "
+"This process doesn't use personalized data, so no IP address or browser "
+"information is transfered to Spreadshirt. The unique basket ID and checkout "
+"URL is stored in a browser cookie until the browser is closed (session). "
+"Adding an article to the basket using the \"Add to basket\" button, the "
+"plugin submits the desired article, color, size, basket ID and shop ID to "
+"Spreadshirt API which stores the information in the basket. If the visitor "
+"clicks on checkout, a link to the checkout process of Spreadshirt with the "
+"unique basket ID will be opened. At this point the visitor leaves this page "
+"and enters the pages of Spreadshirt and so the privacy policy of "
+"Spreadshirt. During basket creation and adding articles to the basket, no "
+"personalized data is somehow transfered to Spreadshirt or stored in this "
+"plugin."
+msgstr ""
+
+#: spreadplugin.php:2008 spreadplugin.php:2025 spreadplugin.php:2181
+#: spreadplugin.php:2192 spreadplugin.php:2309 spreadplugin.php:2320
+#: spreadplugin.php:2670 spreadplugin.php:2681
+msgid "Out of stock"
+msgstr ""
+
+#: spreadplugin.php:2015 spreadplugin.php:2162
+msgid "Details"
+msgstr "Detaljer"
+
+#: spreadplugin.php:2022 spreadplugin.php:2189 spreadplugin.php:2317
+#: spreadplugin.php:2667
+msgid "Color"
+msgstr "Farge"
+
+#: spreadplugin.php:2083 spreadplugin.php:2221 spreadplugin.php:2701
+msgid "Price (with tax):"
+msgstr "Pris (med mva):"
+
+#: spreadplugin.php:2085 spreadplugin.php:2223 spreadplugin.php:2703
+msgid "excl. <a class=\"shipping-window\">Shipping</a>"
+msgstr "ekskl. <a class=\"shipping-window\">frakt/a>"
+
+#: spreadplugin.php:2088 spreadplugin.php:2226 spreadplugin.php:2706
+msgid "Price:"
+msgstr "Pris:"
+
+#: spreadplugin.php:2285
+msgid "New"
+msgstr ""
+
+#: spreadplugin.php:2661
+msgid "Product details"
+msgstr "Produktdetaljer"
+
+#: spreadplugin.php:2687
+msgid "Quantity:"
+msgstr "Antall:"
+
+#: spreadplugin.php:2745
+msgid "Product Details"
+msgstr "Produktdetaljer"
+
+#: spreadplugin.php:2769 spreadplugin.php:2781
+msgid "Dimension"
+msgstr ""
+
+#: spreadplugin.php:3045
+msgid "Spreadplugin Basket"
+msgstr ""
+
+#: spreadplugin.php:3046
+msgid "Widget to display basket contents everywhere"
+msgstr ""
+
+#: spreadplugin.php:3085
+msgid "Spreadplugin Coupon"
+msgstr ""
+
+#: spreadplugin.php:3086
+msgid "Widget to display coupon contents everywhere"
+msgstr ""
+
+#: spreadplugin.php:3183
+msgid "Thanks for updating. Please rebuild cache!"
+msgstr ""
+
+#~ msgid "Product category:"
+#~ msgstr "Produktkategori:"
+
+#~ msgid "All products"
+#~ msgstr "Alle produkter"
+
+#~ msgid "Default display:"
+#~ msgstr "Standardvisning:"
+
+#~ msgid "Articles"
+#~ msgstr "Produkter"
+
+#~ msgid "Designs"
+#~ msgstr "Design"
+
+#~ msgid "Designs with background:"
+#~ msgstr "Design med bakgrunn:"
+
+#~ msgid ""
+#~ "Displays designs with background color of each first given article/shirt"
+#~ msgstr "Vis design med bakgrunnsfargen for første produkt/skjorte"
+
+#~ msgid "Product category"
+#~ msgstr "Produkt kategori:"
+
+#~ msgid "weight"
+#~ msgstr "vekt"
+
+#~ msgid "Price (without tax):"
+#~ msgstr "Pris (uten mva.):"
+
+#~ msgid "Click to view the articles"
+#~ msgstr "Klikk for å se artiklene"
+
+#~ msgid "Show description"
+#~ msgstr "Vis beskrivelse"
+
+#~ msgid "Additional details"
+#~ msgstr "Flere detaljer"
+
+#~ msgid "Sizes"
+#~ msgstr "Størrelse"
+
+#~ msgid "Description"
+#~ msgstr "Vis beskrivelse"
+
+#~ msgid "Shop country:"
+#~ msgstr "Butikk-land:"
+
+#~ msgid "Men"
+#~ msgstr "Menn"
+
+#~ msgid "Women"
+#~ msgstr "Kvinner"
+
+#~ msgid "Kids & Babies"
+#~ msgstr "Barn & babyer"
+
+#~ msgid "Accessories"
+#~ msgstr "Tilbehør"
+
+#~ msgid "New Products"
+#~ msgstr "Nye produkter"
+
+#~ msgid ""
+#~ "If you have a designer Shop (Spreadshirt premium account), enter the ID "
+#~ "here. A new link will appear where the customer can change the design."
+#~ msgstr ""
+#~ "Hvis du har en designerbutikk (Spreadshirt premiumkonto), skriv inn ID "
+#~ "her. En ny link vil bli synlig hvor kunden kan endre på designen."
+
+#~ msgid "Extended sample shortcode"
+#~ msgstr "Utvidet eksempel shortcode"
+
+#~ msgid ""
+#~ "The extended shortcodes will overwrite the default settings. You may use "
+#~ "it to create a different shop with the same plugin."
+#~ msgstr ""
+#~ "Utvidete shortkoder vil overskrive standardinnstillingene. Du kan bruke "
+#~ "det for å lage forskjellige butikker med samme plugin."
+
+#~ msgid "Options"
+#~ msgstr "Innstillinger"
+
+#~ msgid "Successfully saved settings"
+#~ msgstr "Instillinger lagret."
+
+#~ msgid "Edit article"
+#~ msgstr "Endre produkt"
+
+#~ msgid "Loading new articles..."
+#~ msgstr "Laster nye produkter..."
+
+#~ msgid "Proceed checkout"
+#~ msgstr "Fortsett utsjekk"
+
+#~ msgid "Clear cache"
+#~ msgstr "Slett hurtigbuffer"
+
+#~ msgid "Successfully cleared the cache"
+#~ msgstr "Hurtigbuffer tømt."
+
+#~ msgid "excl. Shipping"
+#~ msgstr "ekskl. frakt"
+
+#~ msgid "zzgl. Versandkosten"
+#~ msgstr "excl. Shipping"
+
+#~ msgid "Default sorting:"
+#~ msgstr "Standardsortierung:"
+
+#~ msgid "If you use more than one shop add the complete shortcode."
+#~ msgstr ""
+#~ "Wenn Sie mehr als einen Shop verwenden, nutzen Sie bitte den erweiterten "
+#~ "Shortcode."
+
+#~ msgid "Regenerate Cache"
+#~ msgstr "Cache neu erstellen"
+
+#, fuzzy
+#~ msgid "Preis (with tax):"
+#~ msgstr "Preis (with Tax):"
+
+#~ msgid "Preis (ohne MwSt.):"
+#~ msgstr "Price (without Tax):"

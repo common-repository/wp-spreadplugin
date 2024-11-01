@@ -1,0 +1,9 @@
+#menu .logo,
+.design-info .price,
+.item-price {
+  display: none;
+}
+
+.design-selector .design-tile {
+  background-color: #ccc;
+}

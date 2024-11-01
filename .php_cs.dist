@@ -1,0 +1,64 @@
+<?php
+/*
+ * This document has been generated with
+ * https://mlocati.github.io/php-cs-fixer-configurator/?version=2.14#configurator
+ * you can change this configuration by importing this file.
+ */
+
+return PhpCsFixer\Config::create()
+    ->setRules(array(
+        '@Symfony' => true,
+        '@PSR2' => true,
+        // Each line of multi-line DocComments must have an asterisk [PSR-5] and must be aligned with the first one.
+        'align_multiline_comment' => true,
+        // Each element of an array must be indented exactly once.
+        'array_indentation' => true,
+        // PHP arrays should be declared using the configured syntax.
+        'array_syntax' => array('syntax' => 'long'),
+        // Converts `::class` keywords to FQCN strings.
+        'class_keyword_remove' => true,
+        // Using `isset($var) &&` multiple times should be done in one call.
+        'combine_consecutive_issets' => true,
+        // Calling `unset` on multiple items should be done in one call.
+        'combine_consecutive_unsets' => true,
+        // Remove extra spaces in a nullable typehint.
+        'compact_nullable_typehint' => true,
+        // Concatenation should be spaced according configuration.
+        'concat_space' => array('spacing' => 'one'),
+        // Converts implicit variables into explicit ones in double-quoted strings or heredoc syntax.
+        'explicit_string_variable' => true,
+        // Ensure there is no code on the same line as the PHP open tag.
+        'linebreak_after_opening_tag' => true,
+        // Method chaining MUST be properly indented.
+        // Method chaining with different levels of indentation is not supported.
+        'method_chaining_indentation' => true,
+        // Forbid multi-line whitespace before the closing semicolon or move the semicolon to the new line for chained calls.
+        'multiline_whitespace_before_semicolons' => array('strategy' => 'no_multi_line'),
+        // Replace control structure alternative syntax to use braces.
+        'no_alternative_syntax' => true,
+        // There should not be a binary flag before strings.
+        'no_binary_string' => true,
+        // Replace short-echo `<?=` with long format `<?php echo` syntax.
+        'no_short_echo_tag' => true,
+        // Variables must be set `null` instead of using `(unset)` casting.
+        'no_unset_cast' => true,
+        // There should not be useless `else` cases.
+        'no_useless_else' => true,
+        // There should not be an empty `return` statement at the end of a function.
+        'no_useless_return' => true,
+        // Orders the elements of classes/interfaces/traits.
+        'ordered_class_elements' => true,
+        // `@var` and `@type` annotations must have type and name in the correct order.
+        'phpdoc_var_annotation_correct_order' => true,
+        // Local, dynamic and directly referenced variables should not be assigned and directly returned by a function or method.
+        'return_assignment' => true,
+        // A return statement wishing to return `void` should not return `null`.
+        'simplified_null_return' => true,
+        // Write conditions in Yoda style (`true`), non-Yoda style (`false`) or ignore those conditions (`null`) based on configuration.
+        'yoda_style' => false,
+    ))
+    ->setFinder(
+        PhpCsFixer\Finder::create()
+            ->exclude('vendor')
+            ->in(__DIR__)
+    );
